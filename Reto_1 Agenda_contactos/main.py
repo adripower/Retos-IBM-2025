@@ -1,3 +1,4 @@
+
 while True:
 
     # Menu 
@@ -15,7 +16,7 @@ while True:
     #Menu de opciones
     match opcion:
         case "1":
-            print("Anadimos Usuario")
+            print("Añadimos Usuario")
             pass
         case "2":
             print("Buscamos Usuario")
