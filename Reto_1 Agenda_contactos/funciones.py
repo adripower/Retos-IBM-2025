@@ -10,4 +10,9 @@ class Contacto:
         self.email = email
 
     def __str__(self):
-        return(F"Nombre: {self.nombre} Telefono: {self.telefono} Email: {self.email}")
+        return(F"Nombre: {self.nombre}, Telefono: {self.telefono}, Email: {self.email}")
+    
+
+usuario= Contacto("Paka",555_444_333,"esta@aqui.es")
+
+print(usuario)
